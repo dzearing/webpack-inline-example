@@ -1,5 +1,7 @@
 # webpack-inline-example
 
+Quick demo app which shows `html-webpack-plugin` EJS support combined with `html-inline-scrips-webpack-plugin` to inline Webpack output into the html as part of the bundle step.
+
 ## Usage
 
 To build this example:
