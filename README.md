@@ -47,7 +47,7 @@ Normally, this would produce an `index.html` file which includes these 3 chunks 
     }),
 ```
 
-This produces our final result: the `index.js` file is a script reference, but both inline files are injected into the html result:
+This produces our final result: the `index.js` file is a script reference, but both inline files are injected into the html result (minified, but formatted here for readability):
 
 ```html
 <html>
