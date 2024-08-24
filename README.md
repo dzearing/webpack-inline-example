@@ -19,7 +19,7 @@ This example includes a `/src` folder with the following:
 - `index.js` - the main script entry.
 - `foo.inline.js` and `bar.inline.js` - scripts intended to be inlined into the html result.
 
-The `webpack.config.js` is configured to build production by default (minify everything.) It contains the following entry definition:
+The `webpack.config.js` is configured to build production by default (minify everything.) It contains the following entry definition to process 3 entries:
 
 ```js
   entry: {
@@ -28,8 +28,6 @@ The `webpack.config.js` is configured to build production by default (minify eve
     "bar.inline": "./src/bar.inline.js",
   },
 ```
-
-This indicates 3 input files will be used to produce 3 output files. (Duh!)
 
 The `html-webpack-plugin` is configured to include all 3 chunks:
 
